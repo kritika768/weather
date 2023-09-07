@@ -1,0 +1,43 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(
+        "https://images.theconversation.com/files/232705/original/file-20180820-30593-1nxanpj.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop");
+}
+
+.input{
+        height: 40px;
+        max-width: 300px;
+        width: 100%;
+        background: #fff;
+        margin-top: 50px;
+        margin-right: 20px;
+        border-radius: 8px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;    
+    /* height: 100px;
+    width: 600px ; */
+    border: 1px solid rgb(131, 127, 123);
+
+}
+
+/* .heading
+{
+   margin-left: 60px;
+   margin-right: 60px;
+} */
+
+.city{
+    margin-top: 40px;
+}
+
+.img{
+    height:70px;
+    width: 70px;
+}
